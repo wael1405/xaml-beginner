@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestaurantManager.UniversalWindows", "RestaurantManager.UniversalWindows", "{026DBEFA-331D-4BC0-A2BD-0B694C8E63FA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RestaurantManager.UniversalWindows.Shared", "RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Shared\RestaurantManager.UniversalWindows.Shared.shproj", "{86BF58B6-8CEA-468B-A3BD-DEC7EE9FAC42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.UniversalWindows", "RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Windows\RestaurantManager.UniversalWindows.csproj", "{16717DE5-6E6C-4ED7-AB3B-87004975804F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Shared\RestaurantManager.UniversalWindows.Shared.projitems*{86bf58b6-8cea-468b-a3bd-dec7ee9fac42}*SharedItemsImports = 13
+		RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Shared\RestaurantManager.UniversalWindows.Shared.projitems*{16717de5-6e6c-4ed7-ab3b-87004975804f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|ARM.Build.0 = Debug|ARM
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|x64.ActiveCfg = Debug|x64
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|x64.Build.0 = Debug|x64
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|x64.Deploy.0 = Debug|x64
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|x86.ActiveCfg = Debug|x86
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|x86.Build.0 = Debug|x86
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Debug|x86.Deploy.0 = Debug|x86
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|ARM.ActiveCfg = Release|ARM
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|ARM.Build.0 = Release|ARM
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|ARM.Deploy.0 = Release|ARM
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|x64.ActiveCfg = Release|x64
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|x64.Build.0 = Release|x64
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|x64.Deploy.0 = Release|x64
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|x86.ActiveCfg = Release|x86
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|x86.Build.0 = Release|x86
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86BF58B6-8CEA-468B-A3BD-DEC7EE9FAC42} = {026DBEFA-331D-4BC0-A2BD-0B694C8E63FA}
+		{16717DE5-6E6C-4ED7-AB3B-87004975804F} = {026DBEFA-331D-4BC0-A2BD-0B694C8E63FA}
+	EndGlobalSection
+EndGlobal
