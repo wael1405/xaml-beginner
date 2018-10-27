@@ -9,9 +9,14 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition   Height="614"/>
-            <RowDefinition Height="77"/>
+            <RowDefinition   Height="0.9*"/>
+            <RowDefinition Height="0.1*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="**Clear All Orders**" Margin="358,88,361,-77" Grid.Row="1"/>
+        <Button Content="Clear All Orders" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="1"/>
+        <GridView Background="DimGray" x:Name="gridView" HorizontalAlignment="Left" Height="93" VerticalAlignment="Top" Width="1024">
+            <CommandBar Background="DimGray" FlowDirection="LeftToRight" Visibility="Visible" IsEnabled="True" IsOpen="True" IsSticky="True" Height="89">
+                <AppBarButton Icon="Home" Label="Home" Click="home"/>
+            </CommandBar>
+        </GridView>
     </Grid>
 </Page>

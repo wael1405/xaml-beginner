@@ -6,20 +6,19 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="307"/>
-            <RowDefinition Height="77"/>
-            <RowDefinition Height="387"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.5*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="512"/>
-            <ColumnDefinition Width="512"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="Restuaurant Manager" Margin="347,264,349,10" Grid.ColumnSpan="2"/>
-        <TextBlock Text="Internal test Version" Grid.ColumnSpan="2" Margin="364,47,370,0" Grid.Row="1" />
-        <TextBlock Text="**Go to Orders View**" Margin="87,172,90,164" Grid.Row="2"/>
-        <TextBlock Text="**Submit Order**" Margin="132,172,130,163" Grid.Column="1" Grid.Row="2"/>
+        <TextBlock Text="Restuaurant Manager"  Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <TextBlock Text="Internal test Version" Grid.ColumnSpan="2" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Grid.Row="1" />
+        <Button Content="Go to Orders View" HorizontalAlignment="Center" Grid.Row="2" Height="67" Click="Expedite_page"/>
+        <Button Content="Submit Order" HorizontalAlignment="Center"  Grid.Column="1" Grid.Row="2" Height="67" Click="Order_page"/>
     </Grid>
 </Page>

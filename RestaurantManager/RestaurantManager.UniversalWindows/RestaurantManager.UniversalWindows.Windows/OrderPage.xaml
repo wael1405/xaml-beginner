@@ -9,19 +9,27 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="154"/>
-            <RowDefinition Height="77"/>
-            <RowDefinition Height="385"/>
-            <RowDefinition Height="77"/>
-            <RowDefinition Height="77"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.1*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="512"/>
-            <ColumnDefinition Width="257"/>
-            <ColumnDefinition Width="257"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="0.25*"/>
         </Grid.ColumnDefinitions>
+        
+        <ListView Grid.Row="2" Grid.Column="2"/>
+        <ListView Grid.Row="2" Grid.Column="0"/>
         <TextBlock Text="Special Requests: Order Items:" Grid.ColumnSpan="2" Grid.Column="1" Margin="10,0,-8,10" Grid.Row="1"/>
-        <TextBlock Text="**Add to Order**" Margin="132,10,129,23" Grid.Row="4"/>
-        <TextBlock Text="**Submit Order**" Margin="132,73,131,23" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="1" Grid.RowSpan="2"/>
+        <Button Content="Add to Order" HorizontalAlignment="Center" Grid.Row="4" />
+        <Button Content="Submit Order" HorizontalAlignment="Center" Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="1" />
+        <GridView x:Name="gridView" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="93" VerticalAlignment="Top" Width="1024">
+            <CommandBar Background="DimGray" FlowDirection="LeftToRight" Visibility="Visible" IsEnabled="True" IsOpen="True" IsSticky="True" Height="89">
+                <AppBarButton Icon="Home" Label="Home" Click="home"/>
+            </CommandBar>
+        </GridView>
     </Grid>
 </Page>
