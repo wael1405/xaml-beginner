@@ -110,6 +110,7 @@
     <Content Include="Assets\StoreLogo.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataManager.cs" />
     <Compile Include="ExpeditePage.xaml.cs">
       <DependentUpon>ExpeditePage.xaml</DependentUpon>
     </Compile>
